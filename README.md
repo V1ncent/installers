@@ -42,6 +42,7 @@ is not needed to install packages with these frameworks:
 | concrete5    | `concrete5-block`<br>`concrete5-package`<br>`concrete5-theme`<br>`concrete5-update`
 | Craft        | `craft-plugin`
 | Croogo       | `croogo-plugin`<br>`croogo-theme`
+| Custom       | `custom` (default paths, overrideable in consumer)
 | Dolibarr     | `dolibarr-module`
 | Drupal       | <b>`drupal-module`<br>`drupal-theme`</b><br>`drupal-library`<br>`drupal-profile`<br>`drupal-drush`
 | Elgg         | `elgg-plugin`
@@ -182,3 +183,7 @@ It has been proposed many times. Even implemented once early on and then
 removed. `installers` won't do this because it would allow a single package
 author to wipe out entire folders without the user's consent. That user would
 then come here to yell at us.
+
+But there is the ability to use the "custom" installer, using default composer
+paths by default and allowing to override this in the consuming package.
+
