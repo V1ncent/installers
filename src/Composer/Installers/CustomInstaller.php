@@ -1,7 +1,7 @@
 <?php
 namespace Composer\Installers;
 
-class CodeIgniterInstaller extends BaseInstaller
+class CustomInstaller extends BaseInstaller
 {
 
 }
